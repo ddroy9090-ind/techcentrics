@@ -378,7 +378,7 @@
 				<div class="contact-form_main">
 					<p>We collaborate with organizations to integrate systems, secure infrastructure, and enable smart decision-making through AI and analytics. Share your requirements, and our expert team will reach out to provide tailored solutions.</p>
 					<div class="contact_form">
-						<form method="post" class="contact-form" id="contact-form" action="send.php">
+                                                <form method="post" class="contact-form" id="contact-form" action="mail.php">
 							<h2>Get in Touch with Us</h2>
 							<div class="row">
 								<div class="col-md-6">
@@ -388,7 +388,7 @@
 									<input type="email" class="form-control" placeholder="Email Address" name="email" required>
 								</div>
 								<div class="col-md-6">
-									<input type="text" class="form-control" placeholder="Phone Number" name="number" required>
+                                                                        <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
 								</div>
 								<div class="col-md-6">
 									<input type="text" class="form-control" placeholder="Subject" name="subject" required>

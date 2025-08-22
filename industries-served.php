@@ -638,7 +638,7 @@
                                     Share your requirements below and our team will respond with a tailored approach for your industry.
                                 </p>
                                 <div class="contact_form">
-                                    <form method="post" class="contact-form" id="contact-form" action="send.php">
+                                    <form method="post" class="contact-form" id="contact-form" action="mail.php">
                                         <h2>Get in Touch with Us</h2>
                                         <div class="row g-3">
                                             <div class="col-md-6">
@@ -648,7 +648,7 @@
                                                 <input type="email" class="form-control" placeholder="Email Address" name="email" required>
                                             </div>
                                             <div class="col-md-6">
-                                                <input type="text" class="form-control" placeholder="Phone Number" name="number" required>
+                                                <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
                                             </div>
                                             <div class="col-md-6">
                                                 <input type="text" class="form-control" placeholder="Subject" name="subject" required>
