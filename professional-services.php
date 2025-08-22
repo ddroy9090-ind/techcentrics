@@ -828,16 +828,16 @@
                 <h4 class="pbmit-subtitle">Become A Client</h4>
                 <h2 class="pbmit-title">Ready to Get Started?</h2>
               </div>
-              <form>
+              <form method="post" action="mail.php">
                 <div class="row">
                   <div class="col-md-6">
-                    <input type="text" class="form-control" placeholder="Your Name*" name="your-name">
+                    <input type="text" class="form-control" placeholder="Your Name*" name="name">
                   </div>
                   <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="Your Email*" name="email-address">
+                    <input type="email" class="form-control" placeholder="Your Email*" name="email">
                   </div>
                   <div class="col-md-6">
-                    <input type="text" class="form-control" placeholder="Your Phone*" name="your-phone">
+                    <input type="text" class="form-control" placeholder="Your Phone*" name="phone">
                   </div>
                   <div class="col-md-6">
                     <input type="text" class="form-control" placeholder="Subject" name="subject">

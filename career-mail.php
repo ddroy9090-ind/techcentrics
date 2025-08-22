@@ -30,13 +30,10 @@ function respond($ok, $msg, $extra = []) {
   if (is_ajax()) {
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode($payload);
-    exit;
   } else {
-    // Fallback: redirect back with status
-    $qs = http_build_query($payload);
-    header('Location: ' . ($_SERVER['HTTP_REFERER'] ?? '/'). (strpos($_SERVER['HTTP_REFERER'] ?? '', '?') ? '&' : '?') . $qs);
-    exit;
+    echo "<script>alert('" . htmlspecialchars($msg, ENT_QUOTES) . "'); window.history.back();</script>";
   }
+  exit;
 }
 
 // Basic request method check

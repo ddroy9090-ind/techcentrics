@@ -185,7 +185,7 @@
 						Whether you’re looking for system integration, cybersecurity, cloud deployment, or consulting, our team of certified experts is ready to support you. Drop us a message and we’ll get back to you within 24 hours.
 					</p>
 					<div class="contact_form">
-						<form method="post" class="contact-form" id="contact-form" action="send.php">
+                                                <form method="post" class="contact-form" id="contact-form" action="mail.php">
 							<h2>Get in Touch</h2>
 							<div class="row">
 								<div class="col-md-6">
@@ -195,7 +195,7 @@
 									<input type="email" class="form-control" placeholder="Email Address" name="email" required>
 								</div>
 								<div class="col-md-6">
-									<input type="text" class="form-control" placeholder="Phone Number" name="number" required>
+                                                                        <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
 								</div>
 								<div class="col-md-6">
 									<input type="text" class="form-control" placeholder="Subject" name="subject" required>
